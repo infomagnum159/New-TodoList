@@ -112,7 +112,7 @@ export const removeTask = id => {
     return async dispatch => {
         dispatch(fetchTasksRequest());
         try {
-            await axios.delete(`'https://burgerakbar-js14-default-rtdb.europe-west1.firebasedatabase.app/tasks/${id}.json`);
+            await axios.delete(`https://burgerakbar-js14-default-rtdb.europe-west1.firebasedatabase.app/tasks/${id}.json`);
             dispatch(getToDo());
         } catch (event) {
             dispatch(fetchTasksError(event));
