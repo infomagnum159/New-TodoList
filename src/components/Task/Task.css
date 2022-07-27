@@ -1,0 +1,19 @@
+.Task {
+    padding: 5px 20px 35px;
+    position: relative;
+    border: 2px solid #6c9382;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 140px;
+    display: flex;
+}
+.TextTask {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.Task button {
+    width: 150px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
